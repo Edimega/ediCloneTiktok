@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'TikTok Display Bold';
+	src: url(../fonts/TikTokDisplayFont-Bold.woff2) format('woff2');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'TikTok Display SemiBold';
+	src: url(../fonts/TikTokDisplayFont-Regular.woff2) format('woff2');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'TikTok Regular';
+	src: url(../fonts/TikTokFont-Regular.woff2) format('woff2');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'TikTok SemiBold';
+	src: url(../fonts/TikTokFont-Semibold.woff2) format('woff2');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'TikTok Bold';
+	src: url(../fonts/TikTokFont-Bold.woff2) format('woff2');
+	font-weight: bold;
+}
+
+body {
+	font-family: 'TikTok Regular', sans-serif;
+}
