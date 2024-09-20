@@ -28,6 +28,21 @@
 	font-weight: bold;
 }
 
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+#root {
+	display: grid;
+	place-content: center;
+	place-items: center;
+	min-height: 100vh;
+}
+
 body {
 	font-family: 'TikTok Regular', sans-serif;
 }
