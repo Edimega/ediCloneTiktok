@@ -1,18 +1,22 @@
-/* import { useState } from 'react' */
-import './assets/js/tailwind.js'
-import VideoPlayer from './components/VideoPlayer'
+// src/App.tsx
+import React from 'react';
+import './assets/js/tailwind.js';
+import Sidebar from './components/Sidebar';
+import VideoFeed from './components/VideoFeed';
+import TopNav from './components/TopNav';
 
 function App() {
-
 	return (
-		<>
-			<main className='aspect-[9/16] rounded-1 max-w-[375px] w-screen'>
-				<VideoPlayer />
-			</main>
-		</>
-	)
+		<div className='flex flex-col h-screen'>
+			<TopNav />
+			<div className='flex flex-grow'>
+				<Sidebar />
+				<div className='flex-grow'>
+					<VideoFeed />
+				</div>
+			</div>
+		</div>
+	);
 }
 
-export default App
-
-/* https://youtu.be/cf4UnP7B-vo?si=OfIRW6eh6HGzPo-s&t=2804 */
+export default App;
